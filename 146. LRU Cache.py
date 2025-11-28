@@ -1,3 +1,13 @@
+"""
+Order of operations matters
+Linked list pointers represent the structure.
+The map represents quick access.
+
+Insight
+Always first fix the structure (unlink or move nodes in the linked list).
+Then update the hash map.
+"""
+
 class Node:
     def __init__(self, key, value, prevn=None, nextn=None):
         self.key = key
